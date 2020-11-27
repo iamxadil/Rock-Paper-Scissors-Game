@@ -186,13 +186,11 @@ img {
   transition: opacity 0.4s ease-in;
 }
 
- 
 @media screen and (max-width: 720px) {
   .scoresContainer {
     width: 50%;
     height: 100px;
     font-size: 20px;
-  
   }
 
   .userScore {
