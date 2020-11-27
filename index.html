@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="rps.css" />
+    <title>Rock, Paper & Scissors</title>
+  </head>
+
+  <body>
+    <div class="first-page">
+      <h1 class="starter">Rock, Paper & Scissors</h1>
+      <button id="start-btn">Start</button>
+    </div>
+
+    <div class="second-page">
+      <div class="scoresContainer">
+        <div class="userScore">
+          <h3 class="h-userScore">0</h3>
+        </div>
+        <div class="compScore">
+          <h3 class="h-compScore">0</h3>
+        </div>
+      </div>
+
+      <h1 class="win-lose">Choose!</h1>
+
+      <div class="hands">
+        <div class="img-div div1">
+          <img id="paper" class="btn" src="gestures/hello.svg" alt="paper" />
+        </div>
+        <div class="img-div div2">
+          <img
+            id="scissors"
+            class="btn"
+            src="gestures/letter-k.svg"
+            alt="Scissors"
+          />
+        </div>
+        <div class="img-div div3">
+          <img id="rock" class="btn" src="gestures/letter-s.svg" alt="Rock" />
+        </div>
+      </div>
+    </div>
+
+    <audio id="win">
+        <source src="sfx/win.wav">
+    </audio>
+    <audio id="lose">
+        <source src="sfx/lose.mp3">
+    </audio>
+
+    <script src="rps.js"></script>
+  </body>
+</html>
